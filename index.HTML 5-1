@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>telefonos móviles</title>
+</head>
+
+<body style="background-color:lightblue;">
+<div>
+    <h1>TELÉFONOS</h1>
+    <h2>MARCAS</h2>
+    <h3>IPHONE</h3>
+    <ul>
+        <li><strong>Iphone x<em></strong><p style="width:400px;"><strong>IPhone X</strong></em>(en números romanos, pronunciado iPhone 10) es un teléfono <strong>inteligente</strong> diseñado, desarrollado y comercializado por Apple. Su director general, Tim Cook, anunció el iPhone X el <em>12 de septiembre de 2017</em>, junto con el iPhone 8 y el iPhone 8 Plus en el Teatro Steve Jobs situado en la sede que la compañía tiene en Cupertino, el Parque Apple. El teléfono se puso a la venta el <em>3 de noviembre de 2017</em>. Este iPhone marca el décimo aniversario del iPhone.</p><img src="MOVIL.jpg" alt="Movil" title="Movil" style= "float:right; position:relative;"/></li>
+        <li><strong>Iphone 8</strong></li>
+        <li style="text-align:center;"><img src="iphone8.jpg" alt="iphone8" title="Iphone8"/></li>
+        <li><strong>Ipone 8 Plus</strong></li>
+        <li style="text-align:center;"><img src="movil2.jpg" alt="iphone8plus" title="Iphone8plus"/></li>
+    </ul>
+  <h3>SAMSUNG</h3>
+  <ul>
+    <li><strong>Samsung Galaxy S8</strong></li>
+    <li style="text-align:center;"><img src="samsung8.jpg" alt="sansung8" title="samsung8"/></li>
+
+  </ul>
+</div>
+<form id="formulario" method="post"  enctype="multipart/form-data" action="recogidadb.php" >
+<input type="text" name="Nombre" required id="Nombre" placeholder= "*Nombre"/>
+<input type="text" name="Apellido1" required id="Apellido1" placeholder= "*Apellido1"/>
+<input type="texte" name="Apellido2" required id="Apellido2" placeholder="*Apellido2"/>
+<input type="text" name="dni" required id="dni" placeholder="*dni" maxlength=!9"/>
+<input type="text" name="localidad" required id="localidad" placeholder="*Localidad" />
+<input type="number" name="numero" required id="numero" placeholder="*nº tlf" maxlength="9"/>
+<input type="email" name="email" required id="email" placeholder="*Email" />
+<input type="date" name="date" required id="date" placeholder="*fecha"/>
+<input id= "boton" name= "submir" value= "ENVIAR"></form>
+<a href="https://www.google.es/" target= "blank">  Este es el enlace google  </a> <br/>
+<h1 style=color:red;text-align:center;">IMPORTANTE</h1>
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/Qg5R6NOdaCg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="float:left; margin:auto;padding-left: 350px;" ></iframe>
+
+
+</body>
+</html>
